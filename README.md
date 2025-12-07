@@ -278,17 +278,7 @@ For questions or collaborations, please open an issue in this repository.
 - Streamlit for the interactive web framework
 - Research community for drowsiness detection datasets and methodologies
 
-## 📚 Citation
 
-If you use this work in your research, please cite:
-
-```bibtex
-@misc{driver_drowsiness_detection_2025,
-  title={Driver Drowsiness Detection Using Deep Learning: A Comparative Study},
-  author={[Your Name]},
-  year={2025},
-  howpublished={\url{https://github.com/[your-username]/[repo-name]}}
-}
 ```
 
 ---
