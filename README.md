@@ -2,16 +2,13 @@
 
 A comprehensive deep learning project comparing **Custom CNN** and **ResNet50 Transfer Learning** approaches for detecting driver drowsiness from facial images. This repository includes complete data preprocessing, model training, evaluation, and an interactive Streamlit web application.
 
-[![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://www.python.org/)
-[![TensorFlow](https://img.shields.io/badge/TensorFlow-2.x-orange.svg)](https://www.tensorflow.org/)
-[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
-
 ## 🎯 Project Overview
 
 Driver drowsiness is a leading cause of road accidents worldwide. This project implements and compares two deep learning approaches for automated drowsiness detection using facial image analysis:
 
 - **Custom CNN**: Built from scratch with 456K parameters
 - **ResNet50 Transfer Learning**: Pre-trained on ImageNet with two-phase fine-tuning
+
 
 ### Key Results
 
@@ -21,27 +18,6 @@ Driver drowsiness is a leading cause of road accidents worldwide. This project i
 | **ResNet50** | **94.69%** | **0.9922** | **118** (-46%) | 15 |
 
 ✅ **ResNet50 achieves 5% higher accuracy with 46% fewer critical errors (missed drowsy states)**
-
-## 📁 Project Structure
-
-```
-├── 1-data.ipynb                    # Data preprocessing & partitioning
-├── 2-cnn.ipynb                     # Custom CNN training
-├── 3-transfer-learning.ipynb       # ResNet50 transfer learning
-├── 4-metrics.ipynb                 # Model evaluation & metrics
-├── app.py                          # Streamlit web application
-├── models/
-│   ├── best_cnn.h5                # Trained CNN model
-│   ├── resnet50_final.h5          # Trained ResNet50 model
-│   ├── *_confusion_matrix.png     # Confusion matrices
-│   └── *_roc_curve.png            # ROC curves
-├── architecture_diagrams/          # Model architecture visualizations
-├── dataset/                        # Processed dataset (train/val/test)
-├── research_paper.md               # Full research paper
-├── research_paper_short.md         # Condensed 3-4 page version
-├── requirements.txt                # Python dependencies
-└── README.md                       # This file
-```
 
 
 ### Web Application
