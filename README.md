@@ -6,7 +6,7 @@ A comprehensive deep learning project comparing **Custom CNN** and **ResNet50 Tr
 
 Driver drowsiness is a leading cause of road accidents worldwide. This project implements and compares two deep learning approaches for automated drowsiness detection using facial image analysis:
 
-- **Custom CNN**: Built from scratch with 456K parameters
+- **Custom CNN**: Built from scratch
 - **ResNet50 Transfer Learning**: Pre-trained on ImageNet with two-phase fine-tuning
 
 
